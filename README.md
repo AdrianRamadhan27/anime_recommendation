@@ -269,6 +269,7 @@ Dapat dilihat bahwa beberapa rekomendasi sudah berhasil menangkap genre yang ser
 Metrik evaluasi yang digunakan pada proyek ini adalah RMSE (Root Mean Squared Error) yang mirip dengan Euclidean Distance. Formula penghitungan RMSE adalah sebagai berikut.
 \
 ![RMSE](https://media.geeksforgeeks.org/wp-content/uploads/20200622171741/RMSE1.jpg)
+\
 https://www.geeksforgeeks.org
 \
 RMSE ini bekerja dengan menjumlahkan kuadrat selisih nilai prediksi dengan nilai asli dan merata-ratakannya, setelah itu diakarkan. Dengan itu, semakin kecil nilai RMSE artinya semakin kecil error atau kesalahan dari suatu model.
