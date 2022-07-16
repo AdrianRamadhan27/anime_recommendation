@@ -231,6 +231,7 @@ min_rating = min(df['rating'])
 max_rating = max(df['rating'])
 ```
 Hasilnya adalah sebagai berikut.
+\
 ![variables](https://drive.google.com/uc?export=view&id=1GwJ8HQWHmnpXSR_6axVFlPZGcTGaPjyg)
 \
 Setelah itu, kita bisa memulai membagikan antara fitur (user_id, anime_id) dengan label (rating). Rating akan dinormalisasi dengan metode MinMax.
@@ -260,6 +261,7 @@ model.compile(
 )
 ```
 Hasil pelatihan 100 epochs model dapat dilihat dalam histogram berikut.
+\
 ![hist](https://drive.google.com/uc?export=view&id=1xBpB14lAwX1-4iCgRQM7TiV2qU3zMTG2)
 \
 Setelah dilatih kita bisa mencoba menampilkan top 10 recommendation dari sampel sebagai berikut.
